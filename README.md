@@ -8,6 +8,8 @@ contained within it.
 * Create a thread in the same process
 * Inject a thread into a "srvhost.exe" process
 
+* Create hex dump from binary with `xxd -ps /path/to/bin` 
+
 1. To build as executable binary:
 
 	go build
