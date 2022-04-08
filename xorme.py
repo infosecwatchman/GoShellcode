@@ -13,7 +13,7 @@ def print_output(buf, t):
     if t == 'go':
         fmt = r'0x{:02x}'
         end=','
-        print('buf := []byte {')
+        print('var buf = []byte {')
     elif t == 'c#':
         fmt = r'0x{:02x}'
         end=','
